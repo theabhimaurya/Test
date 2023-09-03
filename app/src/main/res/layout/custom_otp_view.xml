@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- custom_otp_view.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/otpEditText1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/otpEditText2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/otpEditText3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/otpEditText4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="20sp"/>
+</LinearLayout>
